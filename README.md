@@ -8,15 +8,15 @@ A UI to connect to the Control Tower service running in the sandbox environment 
 
 ## Hackathon TODO
 
-[x] Get the UI bootstrapped using React
-[x] Get the grid to make a live GET request to Control Tower and fill in existing stack information
-[x] Get the "+ Add a Stack" button to make a POST call to Control Tower to create a new stack with a body of {:name "Dog Farm's Super Aswesome Sub",:type "alm"}
-[ ] Make the "+ Add a Stack" button pop up a window that has two fields - name, type.
-[ ] Add a "Add" button to the bottom of the "Add a Stack" window that sends a POST request to Control Tower with the information filled out in the two fields - name, type
-[ ] Make the type field a drop down with one possible selection - ALM.
-[ ] Make the status field "live" with colors.
-[ ] Make a grid row clickable. Click thru takes you to a new page with the words - "Hello Travler" at the top.
-[ ] Create a stack EDP. Need to think through the UI on this still.
+-[x] Get the UI bootstrapped using React
+-[x] Get the grid to make a live GET request to Control Tower and fill in existing stack information
+-[x] Get the "+ Add a Stack" button to make a POST call to Control Tower to create a new stack with a body of {:name "Dog Farm's Super Aswesome Sub",:type "alm"}
+-[ ] Make the "+ Add a Stack" button pop up a window that has two fields - name, type.
+-[ ] Add a "Add" button to the bottom of the "Add a Stack" window that sends a POST request to Control Tower with the information filled out in the two fields - name, type
+-[ ] Make the type field a drop down with one possible selection - ALM.
+-[ ] Make the status field "live" with colors.
+-[ ] Make a grid row clickable. Click thru takes you to a new page with the words - "Hello Travler" at the top.
+-[ ] Create a stack EDP. Need to think through the UI on this still.
 
 ## Create React App Bootstrap Boilerplate Info
 
