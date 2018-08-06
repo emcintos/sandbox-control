@@ -1,3 +1,25 @@
+# Sandbox Control
+
+Welcome to zombo.com ... I mean Sandbox Control.
+
+## Introduction
+
+A UI to connect to the Control Tower service running in the sandbox environment and spin up, manage, and spin down sandbox stacks.
+
+## Hackathon TODO
+
+[x] Get the UI bootstrapped using React
+[x] Get the grid to make a live GET request to Control Tower and fill in existing stack information
+[x] Get the "+ Add a Stack" button to make a POST call to Control Tower to create a new stack with a body of {:name "Dog Farm's Super Aswesome Sub",:type "alm"}
+[ ] Make the "+ Add a Stack" button pop up a window that has two fields - name, type.
+[ ] Add a "Add" button to the bottom of the "Add a Stack" window that sends a POST request to Control Tower with the information filled out in the two fields - name, type
+[ ] Make the type field a drop down with one possible selection - ALM.
+[ ] Make the status field "live" with colors.
+[ ] Make a grid row clickable. Click thru takes you to a new page with the words - "Hello Travler" at the top.
+[ ] Create a stack EDP. Need to think through the UI on this still.
+
+## Create React App Bootstrap Boilerplate Info
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -300,7 +322,7 @@ In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and s
 
 Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux or click the green debug icon to start debugging in WebStorm.
 
-The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine. 
+The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine.
 
 ## Formatting Code Automatically
 
@@ -1675,7 +1697,7 @@ Use the following [`launch.json`](https://code.visualstudio.com/docs/editor/debu
       "name": "Debug CRA Tests",
       "type": "node",
       "request": "launch",
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",      
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
       "args": [
         "test",
         "--runInBand",
@@ -1989,7 +2011,7 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+It will get copied to the `build` folder when you run `npm run build`.
 
 If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
 
@@ -2429,7 +2451,7 @@ To resolve this:
 1. Open an issue on the dependency's issue tracker and ask that the package be published pre-compiled.
   * Note: Create React App can consume both CommonJS and ES modules. For Node.js compatibility, it is recommended that the main entry point is CommonJS. However, they can optionally provide an ES module entry point with the `module` field in `package.json`. Note that **even if a library provides an ES Modules version, it should still precompile other ES6 features to ES5 if it intends to support older browsers**.
 
-2. Fork the package and publish a corrected version yourself. 
+2. Fork the package and publish a corrected version yourself.
 
 3. If the dependency is small enough, copy it to your `src/` folder and treat it as application code.
 
